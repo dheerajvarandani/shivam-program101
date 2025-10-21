@@ -2,29 +2,83 @@
 
 <html>
 
-<head>
-</head>
+    <head>
+    </head>
 
-<title>Shivani's First Program</title>
+    <title>Shivani's First Program</title>
 
-<body>
 
- 
-Shivani Varandani 12
+    <style>
 
-s
-Change
+    body {
 
-Commit
-
+    background-color: black;
+        
+    }
 
 
 
+    .yellowtext {
 
-</body>
+        color:yellow;
+    }
 
 
 
+    #magic-button{
+
+        background-color: green;
+    }
+
+
+    </style>
+
+
+
+
+    <body>
+
+    
+        <h1 id="shivani-heading" class="yellowtext">Shivani's Website</h1>
+        <h1 class="yellowtext">Dheeraj</h1>
+
+        <div class="yellowtext">This is my first website</div>
+
+
+        <button id="magic-button">Magic</button>
+
+
+
+    </body>
+
+
+    <script>
+
+        var button = document.getElementById("magic-button");
+        var heading = document.getElementById("shivani-heading");
+
+        heading.onmouseover = function() {
+
+            heading.style.color = "red";
+
+        }
+
+
+        heading.onmouseout = function() {
+
+            heading.style.color = "blue";
+
+        }
+
+
+
+
+
+
+
+        
+        
+    </script>
 
 
 </html>
